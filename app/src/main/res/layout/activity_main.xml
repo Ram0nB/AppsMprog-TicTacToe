@@ -2,6 +2,116 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:columnCount="3"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tileClicked"
+            android:text=""
+            app:layout_column="2"
+            app:layout_row="2" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ramon's 2 player Tic Tac Toe!" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="resetClicked"
+        android:text="RESET" />
+
+</LinearLayout>
