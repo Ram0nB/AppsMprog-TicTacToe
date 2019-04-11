@@ -89,24 +89,24 @@ public class MainActivity extends AppCompatActivity {
         game = new Game();
 
         Button button00 = findViewById(R.id.button00);
-        Button button01 = findViewById(R.id.button00);
-        Button button02 = findViewById(R.id.button00);
-        Button button10 = findViewById(R.id.button00);
-        Button button11 = findViewById(R.id.button00);
-        Button button12 = findViewById(R.id.button00);
-        Button button20 = findViewById(R.id.button00);
-        Button button21 = findViewById(R.id.button00);
-        Button button22 = findViewById(R.id.button00);
+        Button button01 = findViewById(R.id.button01);
+        Button button02 = findViewById(R.id.button02);
+        Button button10 = findViewById(R.id.button10);
+        Button button11 = findViewById(R.id.button11);
+        Button button12 = findViewById(R.id.button12);
+        Button button20 = findViewById(R.id.button20);
+        Button button21 = findViewById(R.id.button21);
+        Button button22 = findViewById(R.id.button22);
 
-        button00.setText(" ");
-        button01.setText(" ");
-        button02.setText(" ");
-        button10.setText(" ");
-        button11.setText(" ");
-        button12.setText(" ");
-        button20.setText(" ");
-        button21.setText(" ");
-        button22.setText(" ");
+        button00.setText("");
+        button01.setText("");
+        button02.setText("");
+        button10.setText("");
+        button11.setText("");
+        button12.setText("");
+        button20.setText("");
+        button21.setText("");
+        button22.setText("");
 
     }
 
